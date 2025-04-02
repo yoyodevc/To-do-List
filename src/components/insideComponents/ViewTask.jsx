@@ -220,7 +220,7 @@ const ViewTask = ({
                 <motion.tr initial={{ opacity: 0 }} animate={{ opacity: 1 }}transition={{ duration: 0.5 }}>
                   <td colSpan="5" className="py-20 text-center">
                     <div className="flex flex-col items-center justify-center mt-10">
-                      <motion.svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5"  stroke="currentColor" className="w-16 h-16 text-gray-500" initial={{ scale: 0.8, opacity: 0 }}animate={{ scale: 1, opacity: 1 }}transition={{ duration: 0.5, delay: 0.2 }}>
+                      <motion.svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5"  stroke="currentColor" className="w-16 h-16 text-green-500" initial={{ scale: 0.8, opacity: 0 }}animate={{ scale: 1, opacity: 1 }}transition={{ duration: 0.5, delay: 0.2 }}>
                         <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                       </motion.svg>
                       <motion.p className="mt-6 text-lg font-semibold text-gray-800"initial={{ y: 10, opacity: 0 }}animate={{ y: 0, opacity: 1 }}transition={{ duration: 0.5, delay: 0.4 }}>You're all set!</motion.p>
